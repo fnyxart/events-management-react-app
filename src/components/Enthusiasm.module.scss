@@ -1,0 +1,13 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  cursor: pointer;
+  transition: all 3s ease-out;
+  color: #261132;
+}

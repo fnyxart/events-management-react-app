@@ -1,0 +1,46 @@
+@use "../../index" as dmn;
+
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: dmn.$headers-font;
+  border-radius: 10px;
+  background: dmn.$bkg-color;
+  box-shadow: 6px 6px 16px #d99d0050, -6px -6px 16px #ffd500;
+
+  nav {
+    margin-right: 1rem;
+  }
+
+  .logo {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: dmn.$text-color;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+  }
+
+  li {
+    margin-left: 3rem;
+  }
+}
+
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: dmn.$text-color;
+  letter-spacing: 1px;
+
+  &:hover,
+  .active {
+    font-weight: bold;
+  }
+}

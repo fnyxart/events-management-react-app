@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+$headers-font: "Montserrat", "sans-serif";
+$title-size: 10vmin;
+$bkg-color: #ffb900;
+$text-color: #261132;
+
+body {
+  background-color: $bkg-color;
+
+  h1 {
+    font-family: $headers-font;
+    font-size: $title-size;
+  }
+}
